@@ -51,7 +51,7 @@ ol {
 .title {
   margin-bottom: 46px;
   color: #fff;
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
@@ -59,10 +59,13 @@ ol {
 }
 
 .button {
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   padding: 6px 73px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family:
+    Fira Sans Condensed,
+    Arial,
+    sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: normal;
@@ -121,7 +124,10 @@ ol {
 .search-form__fieldset-title {
   margin-bottom: 5px;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family:
+    Fira Sans Condensed,
+    Arial,
+    sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -132,13 +138,6 @@ ol {
   align-items: center;
   width: fit-content;
   cursor: pointer;
-}
-
-.search-form__label-text {
-  color: #fff;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: normal;
 }
 
 .search-form__label:hover .search-form__label-text {
@@ -152,13 +151,16 @@ ol {
 
 .search-form__textfield {
   min-width: 228px;
-  border-top: 1px solid #fff;
+  border-top: 1px solid currentColor;
   border-right: 0;
   border-bottom: 1px solid #fff;
   border-left: 0;
   padding: 2.5px 14px 2.5px 0;
-  color: rgba(255, 255, 255, 0.7);
-  font-family: Fira Sans Condensed;
+  color: #fff;
+  font-family:
+    Fira Sans Condensed,
+    Arial,
+    sans-serif;
   font-weight: 400;
   font-size: 18px;
   line-height: normal;
@@ -277,17 +279,25 @@ ol {
 
 .content__video-card-title {
   margin-bottom: 6px;
-  font-family: Oswald;
+  font-family: Oswald, Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
   text-transform: uppercase;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 1200px;
 }
 
 .content__video-card-description {
   font-weight: 400;
   font-size: 18px;
   line-height: 16.2px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 1200px;
 }
 
 .content__video-card-thumbnail {
