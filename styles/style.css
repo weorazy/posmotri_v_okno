@@ -93,7 +93,7 @@ ol {
 
 .more-button {
   width: 100%;
-  margin-bottom: 45px;
+  margin-bottom: -77px;
 }
 
 .result__video-container {
@@ -236,9 +236,9 @@ ol {
 
 .content__list {
   position: relative;
-  height: 345px;
+  height: 298px;
   overflow-y: auto;
-  margin-bottom: 10px;
+  margin-bottom: 55px;
 }
 
 .content__list-item:not(:last-child) {
@@ -249,6 +249,7 @@ ol {
   display: block;
   color: #fff;
   text-decoration: none;
+  margin: 2px 2px 2px 2px;
 }
 
 .content__card-link:hover {
